@@ -18,6 +18,10 @@ from datetime import datetime
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.image as mpimg
 
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
+
 # Path configurations
 implementations_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'Implementations'))
 sys.path.append(implementations_dir)
