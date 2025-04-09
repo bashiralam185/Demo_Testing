@@ -14,7 +14,7 @@ import zipfile
 import tempfile
 import io
 from datetime import datetime
-from fpdf import FPDF
+# from fpdf import FPDF
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.image as mpimg
 
