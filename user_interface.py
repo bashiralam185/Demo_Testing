@@ -19,7 +19,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.image as mpimg
 
 import warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore")
 
 
 # Path configurations
