@@ -1,0 +1,10 @@
+streamlit>=1.20.0
+numpy
+pandas
+Pillow
+torch
+torchvision
+opencv-python-headless
+scikit-image
+matplotlib
+plotly
