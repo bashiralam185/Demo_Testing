@@ -314,9 +314,10 @@ def main():
     st.sidebar.header("Configuration")
     selected_loss = st.sidebar.selectbox("Select Loss Function", LOSS_FUNCTIONS)
     
-    # Load model
-    if st.session_state.model is None:
-        st.session_state.model = load_model(selected_loss)
+    # # Load model
+    # if st.session_state.model is None:
+    st.session_state.model = load_model(selected_loss)
+
 
     # Load and display model performance results
     model_results = load_model_results(selected_loss)
