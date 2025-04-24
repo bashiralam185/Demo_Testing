@@ -28,11 +28,10 @@ sys.path.append(implementations_dir)
 from fpn_net import FPN, Bottleneck
 
 LOSS_FUNCTIONS = [
-   'AsymmetricSimilarityLoss', 'BoundaryAwareLoss', 'ComboLoss', 'DiceLoss', 'DiceFocalLoss', 'DistanceMapPenalizingLoss',
+   'AsymmetricSimilarityLoss', 'BoundaryAwareLoss', 'ComboLoss', 'DiceLoss', 'DiceFocalLoss',
    'ExponentialLogarithmicLoss', 'FocalLoss', 'FocalTverskyLoss', 'GeneralizedDiceLoss', 'GeneralizedWassersteinDiceLoss',
    'HausdorffDistanceLoss', 'InverseFormLoss', 'IoULoss', 'LovaszHingeLoss', 'PenaltyLoss', 'RobustTLoss',
-   'SensitivitySpecificityLoss', 'TopKLoss', 'TverskyLoss', 'UnifiedFocalLoss', 'WeightedBinaryCrossEntropyLoss', 
-   'WithLogitsLoss'
+   'SensitivitySpecificityLoss', 'TopKLoss', 'TverskyLoss', 'UnifiedFocalLoss', 'WeightedBinaryCrossEntropyLoss'
 ]
 
 # Load model results from JSON
